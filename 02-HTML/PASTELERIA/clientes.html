@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" >
+        <title>Pastelería</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./estilos-clientes.css">
+    </head>
+    <body>
+        <nav class="link_principal">
+                <a href="./index.html">Principal</a>
+        </nav>
+            
+        <div>
+            <h1 class="pasteleria">PASTELERÍA MC SWEETS</h1>
+        </div>
+        <div class="logo">
+            <img src="./imagenes/logo-pasteleria.png" alt="logo">
+        </div>
+        <div class="descripcion">
+            <p>Bienvenido a nuestra pasteleria</p>
+            <p>Puedes escoger los sabores y complementos que desees</p>
+        </div>
+            
+        <section>
+            <div class="productos">
+                <div class="sabores">
+                   <h2 class="sabor">Sabores de Pasteles</h2>
+                    <section class="pasteles">
+
+                          <div class="cards-container">
+                               <div class="product-card">
+                                <img src="./imagenes/pastel_chocolate.jpg" alt="Pastel de Chocolate">
+                                    <div class="product-info">
+                                        <p>Pastel de Chocolate</p>
+                                        <p>S/.60.00</p>
+                                    </div>
+                                </div>
+
+                                <div class="product-card">
+                                    <img src="./imagenes/pastel_vainilla.jpg" alt="Pastel de Vainilla">
+                                    <div class="product-info">
+                                        <p>Pastel de Vainilla</p>
+                                        <p>S/.55.00</p>
+                                    </div>
+                                </div>
+
+                                <div class="product-card">
+                                    <img src="./imagenes/red_v.jpg" alt="Pastel de Red Velvet">
+                                    <div class="product-info">
+                                        <p>Pastel de Red Velvet</p>
+                                        <p>S/.65.00</p>
+                                    </div>
+                                </div>
+
+                                <div class="product-card">
+                                    <img src="./imagenes/3_leches.jpg" alt="Pastel de Tres Leches">
+                                    <div class="product-info">
+                                        <p>Pastel de Tres Leches</p>
+                                        <p>S/.70.00</p>
+                                    </div>
+                                </div>
+
+                                <div class="product-card">
+                                    <img src="./imagenes/cheesecake.jpg" alt="Chesecake">
+                                    <div class="product-info">
+                                        <p>Chesecake</p>
+                                        <p>S/.75.00</p>
+                                </div>
+                            </div>
+
+                    </section>
+                </div>
+            </div>    
+        </section> 
+
+        <section>
+            <div class="decoraciones">
+                <div class="extras">
+                    <h2 class="decoracion">Decoraciones</h2>
+                    <section class="decoraciones">
+                        <div class="cards-container">
+
+                            <div class="product-card">
+                                <img src="./imagenes/Coco_rallado.jpg" alt="Coco rallado">
+                                <div class="product-info">
+                                    <p>Coco rallado</p>
+                                    <p>S/.5.00</p>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="./imagenes/fresas.jpeg" alt="fresas">
+                                <div class="product-info">
+                                    <p>Fresas</p>
+                                    <p>S/.15.00</p>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="./imagenes/almendra.jpg" alt="Almendras">
+                                <div class="product-info">
+                                    <p>Almendras</p>
+                                    <p>S/.25.00</p>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="./imagenes/fondant.jpg" alt="Adornos de Fondant">
+                                <div class="product-info">
+                                    <p>Adornos de Fondant</p>
+                                    <p>S/.15.00</p>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <img src="./imagenes/sprinkles.png" alt="Sprinkles">
+                                <div class="product-info">
+                                    <p>Sprinkles de diversas formas</p>
+                                    <p>S/.8.00</p>
+                            </div>
+                        </div> 
+                    </section>
+                </div> 
+            </div>
+        </section>
+        <form>
+            <h2>Orden de Pedido</h2>
+            <div class="datos">
+                <p>Ingrese sus datos para generar el pedido</p>
+                    
+                <label for= "nombre">Nombre</label>
+                <input type="text" id="Nombre" placeholder="Nombre"> 
+                    
+                <label for= "telefono">Teléfono</label>
+                <input type="number" id="Teléfono" placeholder="000-000-0000"> 
+                    
+                <label for= "correo">Correo Electrónico</label>
+                <input type="email" id="Correo" placeholder="email@email.com"> 
+                    
+                <label for= "descripcion">Descripción General del Pastel</label>
+                <input type="text" id="descripcion" placeholder="Descripcion"> 
+            </div>
+                
+            <p>Ingrese los detalles de su pedido</p>
+                
+            <div class="complementos">
+                    
+                <div class="c1">
+                    <h2>Pasteles</h2>
+                    <div>
+                        <input type="checkbox" id="pastele1">
+                        <label for="pastel1">Chocolate</label> 
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pastele2">
+                        <label for="pastel2">Vainilla</label> 
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pastel3">
+                        <label for="pastel3">Red velvet</label> 
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pastel4">
+                        <label for="pastel4">Tres Leches</label> 
+                    </div> 
+                    <div>
+                        <input type="checkbox" id="pastel5">
+                        <label for="paste5">Chesecake</label> 
+                    </div>
+                </div>
+                <div class="c2">
+                    <h2>Complementos</h2>
+                    <div>
+                        <input type="checkbox" id="adorno">
+                        <label for="adorno">Coco Rallado</label> 
+                    </div>
+                    <div>
+                        <input type="checkbox" id="adorno1">
+                        <label for="adorno1">Fresas</label> 
+                    </div>
+                    <div>
+                        <input type="checkbox" id="adorno2">
+                        <label for="adorno2">Almendras</label> 
+                    </div>
+                    <div>
+                        <input type="checkbox" id="adorno3">
+                        <label for="adorno3">Fondant</label> 
+                    </div> 
+                    <div>
+                        <input type="checkbox" id="adorno4">
+                        <label for="adorno4">Sprinkles</label> 
+                    </div>
+                </div>
+            </div>
+                <input class="boton" type="button" value="Enviar">   
+        </form>
+        <footer>
+            <div class="container">
+                <div class="container_1">
+                    <p class="contacto">Contactanos</p>
+                    <div>
+                        <figure><img src="./imagenes/logo_w.jpg" alt=""></figure>
+                        <p>000000000</p>
+                    </div>
+                </div>
+                <div class="container_2">
+                    <p class="direccion">Dirección</p>
+                    <p>000000000</p>
+                </div>
+                <div class="container_3">
+                    <p class="horarios">Horarios de Atención</p>
+                    <p>000000000</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>  

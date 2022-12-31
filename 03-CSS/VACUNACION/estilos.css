@@ -1,0 +1,335 @@
+body{
+    margin: 0; 
+}
+.opciones{
+    height: 120px;
+    width: auto;
+    background: linear-gradient(to right, white 47%,rgb(234, 244, 247) 48%,rgb(234, 244, 247) 90%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.opciones div{
+    margin: auto;
+}
+.opciones div h1{
+    color: blue;
+    font-size: 32px; 
+}
+.enlaces{
+    width: 55%;
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+}
+.enlaces a:hover{
+    color: black;
+}
+.enlaces a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px; 
+    font-weight: bold; 
+}
+.enlaces button{
+    height: 50px;
+    width: 160px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(74, 74, 170, 0.76);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;  
+}
+.enlaces button:hover{
+    background-color: black;
+}
+.virus{
+    height: 850px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(./imagenes/triangulo.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.combate-viruss{
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-right: 70px;
+}
+
+.combate-virus h2{
+    color: blue;
+    font-size: 80px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.combate-virus p{
+    color: blue;
+    font-size: 28px;
+    text-align: left;
+    line-height: 2;
+}
+.anuncios ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+.anuncios ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 28px;
+    color: blue;
+}
+.agenda{
+    color: blue;
+    font-size: 28px;
+    margin-top: 50px;
+}
+.doctora img{
+    height: 850px;
+    width: 700px;
+}
+table{
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    left: 90px;
+    background-color: rgb(240, 236, 236,0.45);  
+    padding: 10px;
+}
+th, td{
+    padding: 5px;
+}
+th{
+    text-align: left;
+    font-size: 24px;
+    color:gray;
+}
+td{
+    padding-left: 40px;
+    font-size: 24px;
+    color: blue;
+}
+th button{
+    background-color: blue;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+th button:hover{
+    background-color: black;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+.contenedor img{
+    width: 200px;
+    height: 60px;
+    object-fit: fill;
+    filter: grayscale(100%);
+    opacity: 0.2;
+}
+.mensaje{
+    width: 40%;
+    height: auto;
+    padding-left: 100px;
+}
+.mensaje-pregunta{
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+}
+.mensaje-respuesta{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-right: 90px;
+    color: blue;
+}
+.beneficios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 100px;
+}
+.beneficios-lista{
+    color: blue;
+    margin: 0;
+    padding: 100px 40px 40px 40px;
+    font-size: 18px;
+}
+.beneficios-lista:hover{
+    background-color: aquamarine;
+}
+.beneficios-lista h3{
+    font-size: 22px;
+    text-align: left;
+    text-align:start;
+}
+.beneficios-lista p{
+    line-height: 1.5;
+}
+.preparativos{
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.preparativos-imagen img{
+    height: 800px;
+    width: 600px;
+}
+.preparativos-mensaje h2{
+    color: blue;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.preparativos-mensaje p{
+    color: blue;
+    font-size: 20px;
+    text-align: left;
+    line-height: 2;
+}
+.preparativos-lista section p{
+    display: none;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 120px;
+    border-bottom: 1px solid gray;
+    color: blue;
+}
+.preparativos-lista section a{
+    text-align: left;
+    text-decoration: none;
+    color: blue; 
+}
+.preparativos-lista section a:hover{
+    color:black;
+}
+.preparativos-lista section:target p{
+    display: block;
+    line-height: 1.5;
+}
+.contacto-emergencia{
+    width: 40%;
+    height: auto;
+    padding-left: 100px;
+}
+.contacto-emergencia h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    padding-top: 50px;
+}
+.contacto-emergencia p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-right: 90px;
+    color: blue;
+}
+#contacto-informacion{
+    height: 400px; ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#contacto-lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+    gap: 20px;
+}
+.seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: blue;
+    }
+.seccion-imagen{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+figure{
+    margin: auto;
+    background-color: aquamarine;
+}
+.seccion .servicios-boton button{
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 180px;
+}
+.seccion .servicios-boton button:hover{
+    background-color: blue;
+}
+#imagen-doctor img{
+    height: 400px;
+    width: 670px;
+}
+footer{
+    background-color: rgb(234, 244, 247);
+    margin-top: 90px;
+}
+.informacion-organizacion{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 90px;
+    color: blue;
+}
+.organizacion-objetivo h3{
+    font-size: 20px;
+}
+.organizacion-objetivo p{
+    margin-right: 500px;
+    line-height: 1.5;
+}
+.organizacion-datos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.organizacion-datos div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.organizacion-datos div a{
+    text-decoration: none;
+    line-height: 1.5;
+    color: gray;
+}
+.organizacion-datos div a:hover{
+    color: black;
+}
+.derechos-politica{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: blue;
+  }
+.derechos{
+    padding-left: 90px;
+}
+.politica ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:15px;
+    padding-right: 50px;
+    
+}
+.politica ul li{
+    list-style: none;
+    justify-content: end;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <p id="texto-inicial">Seleccione la Operación que desee realizar</p>
+
+    <div id="contenedor">
+        <div id="grupo-botones">
+            <button class="boton-operacion" id="suma">Suma</button>
+            <button class="boton-operacion" id="resta">Resta</button>
+            <button class="boton-operacion" id="multiplicacion">Multiplicación</button>
+            <button class="boton-operacion" id="division">División</button>
+            <button class="boton-operacion" id="raiz-cuadrada">Raíz Cuadrada</button>
+            <button class="boton-operacion" id="potencia">Potencia</button>
+            <button class="boton-operacion" id="residuo">Residuo</button>
+        </div>
+    </div>
+
+
+    <div id="datos">
+        <div id="datos-parte1">
+            <section id="primer-dato">
+                <label class="datos-operacion" for="primer-numero">
+                    <p id="primer-texto"></p> 
+                </label>
+                <input type="text" name="datos" class="input-datos" id="primer-numero" onkeypress="return validarNumero(event);" required>
+            </section>
+            <section id="segundo-dato">
+                <label class="datos-operacion" for="segundo-numero">
+                    <p id="segundo-texto"></p> 
+                </label>
+                <input type="text" name="datos" class="input-datos" id="segundo-numero" onkeypress="return validarNumero(event);" required>
+            </section>
+        </div>
+
+        <div id="datos-parte2">
+            <button id="calcular"> Calcular</button>
+        </div>
+        <div id="resultado"></div>
+        <button id="boton-reiniciar">Reiniciar</button>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body {
+    font-family: 'Righteous', cursive;
+    background-color: blue;
+}
+
+.boton-operacion {
+    font-family: 'Righteous', cursive;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+
+#texto-inicial {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+#grupo-botones {
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 50px;
+    background-color: #38ea64;
+}
+
+.boton-operacion {
+    font-size: 30px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#residuo {
+    grid-column-start: 2;
+}
+
+#datos {
+    width: 560px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    padding: 50px;
+    background-color: azure;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+#datos-parte1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+
+label {
+    height: 120px;
+    margin-top: 0;
+}
+
+#calcular, #boton-reiniciar {
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+}
+
+#resultado {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+#boton-reiniciar {
+    width: 184px;
+}
+
+#primer-dato, #segundo-dato {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+}
+
+#primer-numero, #segundo-numero {
+    font-family: 'Righteous', cursive;
+    font-size: 40px;  
+    width: 250px; 
+}

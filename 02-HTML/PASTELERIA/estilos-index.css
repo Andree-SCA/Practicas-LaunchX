@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik+Bubbles&display=swap');
+
+body{
+    margin: 0;
+    background-color: #ffcf53;
+    font-family: 'Righteous', cursive;
+    /* font-family: 'Rubik Bubbles', cursive; */
+
+}
+.pasteleria{
+    text-align: center;
+    font-size: 70px;
+    color: black;
+    margin: 0;
+}
+.presentacion .contenedor{
+    height: 300px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+}
+.logo img{
+    height: 400px;
+    width: 350px;
+    margin: 0;
+}
+.descripcion{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #1D374B;
+    background-color: #ffff95;
+    margin-top: 60px;
+    
+}
+.links{
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+.cliente{
+    background-color: #121b1e;
+    padding: 30px 60px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 12px;
+}
+.pastelero{
+    background-color: #121b1e;
+    border-radius: 12px;
+    padding: 30px 60px;
+    text-align: center;
+    margin: 30px;
+}
+footer{
+    color: white;
+    background-color:#234861;
+    margin: 0;
+}
+.container{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.container_1 div{
+    width: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+figure img{
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+}
+.contacto p{
+    text-align: right;
+}
+.container_2,
+.container_3{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+}
+.contacto,
+.direccion,
+.horarios{
+    margin: 0;
+}
